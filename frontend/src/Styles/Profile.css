@@ -1,0 +1,62 @@
+/* Center container */
+.profile {
+  width: 250px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Heading */
+.profile h1 {
+  margin-bottom: 20px;
+  color: #22ab6a;
+}
+
+/* Input fields */
+.inputBox1 {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Buttons */
+.appbutton {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #22ab6a;
+  background-color: #22ab6a;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 12px;
+}
+
+.appbutton:hover {
+  background-color: #22ab6a;
+}
+
+/* Logout button special */
+.appbutton.logout {
+  background-color: #dc3545;
+}
+
+.appbutton.logout:hover {
+  background-color: #b02a37;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .profile {
+    width: 90%;
+    margin-top: 137px;
+        min-height: 45px;
+  }
+}

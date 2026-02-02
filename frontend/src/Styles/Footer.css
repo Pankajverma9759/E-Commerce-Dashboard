@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page full height fix */
+html, body {
+  height: 100%;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  width: 100%;
+  background-color: #1f2937;
+  color: #ffffff;
+  text-align: center;
+
+  padding: 15px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer text */
+.footer h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 576px) {
+  .footer {
+    padding: 12px 8px;
+     margin-top: 214px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 577px) and (max-width: 991px) {
+  .footer h3 {
+    font-size: 17px;
+    margin-top: 254px;
+  }
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 992px) {
+  .footer {
+    padding: 18px 0;
+     margin-top: 124px;
+  }
+
+  .footer h3 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #22ab6a;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  z-index: 1000;
+}
+
+/* Content footer ke peeche hide na ho */
+body {
+  padding-bottom: 60px; /* footer height ke according adjust */
+}
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
